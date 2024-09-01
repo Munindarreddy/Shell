@@ -17,3 +17,13 @@ Going forward we are going to do the same for all repositories.
 2) git pull (to download jiust the changes that you don't have)
 3) git commit -m  "msg" (before you push anything, make sure you tell what you're doing in the comming message)
 4) git push ( Publish the changed to your repo)
+
+Note:
+
+If the repo is public, anyone can download/clone the repo without the need of authenticaiton
+if the repo is public/private, only the owner or team who has access to that repo can only publish
+So, how to authenticate to our GitHub account from our computer ?
+
+1) On your GitHub account, generate a PAT ( Personal Access Token )
+2) Now save that on a notePad, on your VSCode, run the "git push" couple of times and you'd see the prompt to enter the token
+3) That's it and it's an one time effort and from now you can publish the code to your repo n number of times.
